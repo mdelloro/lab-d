@@ -10,14 +10,15 @@
 <head>
 <%@ include file="parts/head.jsp"%>
 </head>
-<body>
+<body id="background" background = "${ weather.image}">
+
 	<div class="nav">
 		<a href="<c:url value="/"/>">Home</a>
 	</div>
+
 	<h1>Grand Circus Weather</h1>
 
-	<p id="p">
-
+	<p>
 		<br /> <label>Date/Time: </label>
 		<c:out value="${ weather.date }" />
 
@@ -32,9 +33,9 @@
 
 
 	</p>
+	
 </body>
 
-<body background="${ weather.image } ">
-</body>
+
 
 </html>

@@ -57,5 +57,6 @@ public class Weather {
 	public String getDate() {
 		return date;
 	}
+	
+	}
 
-}
