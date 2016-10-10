@@ -42,3 +42,7 @@ a.add-btn {
 .nav a:first-child {
 	border-left: none;
 }
+
+p {
+    background-color: white;
+}
